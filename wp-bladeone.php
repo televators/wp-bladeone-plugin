@@ -9,7 +9,7 @@
  *
  * Plugin Name: WP Blade(One)
  * Plugin URI: https://github.com/televators/wp-bladeone-plugin
- * Description: Wordpress plugin that provides drop-in Laravel Blade (via BladeOne) templating, using existing template hierarchy.
+ * Description: Wordpress plugin that provides Laravel Blade (via BladeOne) templating, using existing template hierarchy.
  * Version: 0.1.0
  * Author: televators
  * Author URI: https://github.com/televators

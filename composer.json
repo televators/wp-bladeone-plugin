@@ -1,6 +1,6 @@
 {
   "name": "televators/wp-bladeone-plugin",
-  "description": "Wordpress plugin that provides drop-in Laravel Blade (via BladeOne) templating, using existing template hierarchy.",
+  "description": "Wordpress plugin that provides Laravel Blade (via BladeOne) templating, using existing template hierarchy.",
   "type": "wordpress-plugin",
   "require": {
     "php": ">=7.3",
