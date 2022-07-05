@@ -1,21 +1,33 @@
 {
-    "name": "dievardump/wp-bladeone-plugin",
-    "description": "Plugin enabling Blade(One) syntaxing in wordpress themes",
-    "type": "wordpress-plugin",
-    "require": {
-        "composer/installers": "^1.9",
-        "tightenco/collect": "^7.12",
-        "eftec/bladeone": "^3.46"
+  "name": "televators/wp-bladeone-plugin",
+  "description": "Wordpress plugin that provides drop-in Laravel Blade (via BladeOne) templating, using existing template hierarchy.",
+  "type": "wordpress-plugin",
+  "require": {
+    "php": ">=7.3",
+    "composer/installers": "^1.12",
+    "tightenco/collect": "^8.16",
+    "eftec/bladeone": "^4.5"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Simon Fremaux",
+      "email": "dievardump@gmail.com"
     },
-    "license": "MIT",
-    "authors": [{
-        "name": "Simon Fremaux",
-        "email": "dievardump@gmail.com"
-    }],
-    "autoload": {
-        "psr-4": {
-            "WP_BladeOne\\": "php/src"
-        }
-    },
-    "minimum-stability": "dev"
+    {
+      "name": "Televators",
+      "email": "televators.code@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "WP_BladeOne\\": "php/src"
+    }
+  },
+  "minimum-stability": "dev",
+  "config": {
+    "allow-plugins": {
+      "composer/installers": true
+    }
+  }
 }
